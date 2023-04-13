@@ -1,7 +1,6 @@
-</div>
-<div class=text-center">
+<div class="bg-dark text-white text-center text-lg-center fixed-bottom">
     <br/>
-    <p>Copyright &copy; 2023 Byerly</p>
+    <p>Copyright &copy; 2023 Hoerr</p>
 </div>
 </body>
 </html>
