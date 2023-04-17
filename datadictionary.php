@@ -85,7 +85,7 @@
     <h3 id="ads">Ads</h3>
     <ul>
         <li>Ad_ID - The ID number of the ad. Must be unique.</li>
-        <li>Page_ID - The ID number of the page.</li>
+        <li>Page_ID - The ID number of the page. This is a foreign key from the Page_ID column in the Page table.</li>
         <li>Title - The title of the advertiser. This is a foreign key from the Title column in the Advertiser table.</li>
         <li>Description - The description of the advertiser. This is a foreign key from the Description column in the Advertiser table.</li>
         <li>Media_ID - The media of the ad. This is a foreign key from the Media_ID column in the Media table. Media can either be images or videos.</li>
