@@ -56,8 +56,6 @@
     <h3 id="posts">Posts</h3>
     <ul>
         <li>Post_ID - The ID number of the post. Must be unique.</li>
-        <li>Acc_ID - The ID number of the account. This is a foreign key from the ID column in the Account table.</li>
-        <li>Title - The title of the post.</li>
         <li>Description - The description of the post.</li>
         <li>Media - The media of the post. This is a foreign key from the Media_ID column in the Media table. Media can either be images or videos.</li>
         <li>Page_ID - The ID number of the page. This is a foreign key from the Page_ID column in the Page table.</li>
@@ -71,7 +69,6 @@
     <h3 id="comment">Comment</h3>
     <ul>
         <li>Comment_ID - The ID number of the comment. Must be unique.</li>
-        <li>Page_ID - The ID number of the page. This is a foreign key from the Page_ID column in the Page table.</li>
         <li>Media_ID - The media of the comment. This is a foreign key from the Media_ID column in the Media table. Media can either be images or videos.</li>
         <li>Comment - The comment used for the post. It is the plaintext data for the comment.</li>
         <li>Post_ID - The ID number of the post. This is a foreign key from the Post_ID column in the Post table.</li>
